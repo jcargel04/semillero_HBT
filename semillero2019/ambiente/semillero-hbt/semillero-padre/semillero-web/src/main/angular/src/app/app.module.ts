@@ -22,13 +22,17 @@ export { ResultadoDTO } from './semillero/dto/resultado.dto';
 import {EjemploService} from './semillero/services/ejemplo.service';
 import {AbstractService} from './semillero/services/template.service';
 
+
+import { MostrarMensaje } from './semillero/componentes/mostrar-texto/mostrar-texto-component';
+
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     BienvenidaComponent,
     CrearPersonaComponent,
-    GestionarComicComponent
+    GestionarComicComponent,
+    MostrarMensaje
   ],
   imports: [
     BrowserModule,
