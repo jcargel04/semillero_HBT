@@ -12,6 +12,7 @@ export class MostrarMensaje implements OnInit{
  */
     public nombre: string;
     public ciudad: string;
+    public mensaje: string;
 
     constructor(){
         /**
@@ -26,6 +27,8 @@ export class MostrarMensaje implements OnInit{
         */
         this.nombre = "Juan Carlos Argel";
         this.ciudad = "Montería";
+        this.mensaje = this.nombre + " - " + this.ciudad;
+
     }
  
 }
