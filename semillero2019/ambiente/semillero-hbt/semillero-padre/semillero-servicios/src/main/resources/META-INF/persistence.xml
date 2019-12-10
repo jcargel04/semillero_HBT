@@ -7,7 +7,8 @@
 	
 	
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<jta-data-source>jdbc/semillero</jta-data-source>
+<!-- 		<jta-data-source>jdbc/semillero</jta-data-source> -->
+		<jta-data-source>DB_SEMILLERO</jta-data-source>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		
 		<properties>
@@ -21,11 +22,11 @@
 			<property name="hibernate.id.new_generator_mappings"
 				value="true" />
 				
-			<!-- Configuring JDBC properties -->
-		    <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:DB_SEMILLERO" />
-		    <property name="javax.persistence.jdbc.user" value="DB_SEMILLERO" />
-		    <property name="javax.persistence.jdbc.password" value="1234" />
-		    <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
+ 			<!-- Configuring JDBC properties -->
+<!-- 		    <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:DB_SEMILLERO" /> -->
+<!-- 		    <property name="javax.persistence.jdbc.user" value="DB_SEMILLERO" /> -->
+<!-- 		    <property name="javax.persistence.jdbc.password" value="1234" /> -->
+<!-- 		    <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" /> -->
 			
 		</properties>
 				
